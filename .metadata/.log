@@ -1,0 +1,27 @@
+!SESSION 2026-10-27 21:31:24.721 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-27 21:32:35.663
+!MESSAGE Log4j2 initialized with config file /home/maciejmx/Documents/sem9/Robotyka2/DC_CL_control_driver/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-27 21:32:38.711
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-10-27 21:33:26.558 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-27 21:33:44.725
+!MESSAGE Log4j2 initialized with config file /home/maciejmx/Documents/sem9/Robotyka2/DC_CL_control_driver/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-27 21:33:47.501
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-27 21:36:39.766
+!MESSAGE Indexed 'Software' (616 sources, 347 headers) in 13.6 sec: 52,273 declarations; 402,945 references; 58 unresolved inclusions; 357 syntax errors; 16,409 unresolved names (3.5%)
