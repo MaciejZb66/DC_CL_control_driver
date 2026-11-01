@@ -13,6 +13,7 @@
 \usepackage[dvipsnames]{xcolor} %custom colory
 \usepackage{graphicx} %do grafik
 \usepackage{csquotes}  % required for biblatex-apa
+\usepackage{xurl} %hyperref wrap
 
 \usepackage[
 	backend=biber,
@@ -25,7 +26,7 @@
 ]{biblatex}
 
 \addbibresource{Raport.bib}
-%\DeclareFieldFormat{labelnumberwidth}{[#1]}
+\DeclareFieldFormat{labelnumberwidth}{[#1]}
 \setlength{\biblabelsep}{0.5em}
 
 \defbibenvironment{numberedbibliography}
@@ -38,6 +39,12 @@
 		\addtolength{\leftmargin}{\labelsep}}}
 {\endlist}
 {\item}
+
+\setcounter{biburlnumpenalty}{9000}
+\setcounter{biburlucpenalty}{9000}
+\setcounter{biburllcpenalty}{9000}
+
+\DeclareFieldFormat{url}{\url{#1}}
 
 \newgeometry{tmargin=3.5cm}
 \newgeometry{lmargin=2.5cm}
@@ -88,5 +95,6 @@
 	]
 	
 	\clearpage
+	\tableofcontents
 
 \end{document}

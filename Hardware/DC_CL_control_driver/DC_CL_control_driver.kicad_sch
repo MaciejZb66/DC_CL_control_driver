@@ -690,6 +690,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32G0:STM32G030F6Px"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1967,6 +2145,536 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB4930-00-A_REVA:USB4930-00-A_REVA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -15.24 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB4930-00-A_REVA"
+				(at -15.24 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "USB4930-00-A_REVA:GCT_USB4930-00-A_REVA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Type C USB 2.0 Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Global Connector Technology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "USB4930-00-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=19108388&manufacturer=Global Connector Technology&part_name=USB4930-00-A&search_term=usb4930-00-a"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Global Connector Technology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "USB4930-00-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "USB4930-00-A_REVA_0_0"
+				(rectangle
+					(start -15.24 -12.7)
+					(end 15.24 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1_A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "SHELL_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHELL_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHELL_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHELL_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2361,6 +3069,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "STLink input port"
+		(exclude_from_sim no)
+		(at 250.19 16.256 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "72456080-48d4-48b2-9ab6-0cd3a1b6a6aa")
+	)
+	(text "UART communication"
+		(exclude_from_sim no)
+		(at 194.31 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a54bf79-216d-4d99-9ed3-661d95094800")
+	)
+	(text "I2C communication"
+		(exclude_from_sim no)
+		(at 146.05 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9168b85f-8da9-4ad5-87f6-27f997427da4")
+	)
 	(junction
 		(at 95.25 162.56)
 		(diameter 0)
@@ -2374,16 +3112,40 @@
 		(uuid "0e348a62-da87-4abf-8f55-0b24ed3aa261")
 	)
 	(junction
+		(at 190.5 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16a6016a-ebe6-43ed-8f99-3707ac543778")
+	)
+	(junction
 		(at 68.58 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be5da1a-547e-4bcf-ab2f-c4323b675901")
 	)
 	(junction
+		(at 274.32 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7491cb3b-dc02-415a-8c52-5d66d36b7ae5")
+	)
+	(junction
 		(at 91.44 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3581d5-ea94-4c15-ba92-40ab2abb61fc")
+	)
+	(junction
+		(at 170.18 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fdb6083-964c-4f35-8b13-20dca751d895")
+	)
+	(junction
+		(at 170.18 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2af97d0-8249-4aa4-a70a-6781d0f9ae9f")
 	)
 	(junction
 		(at 226.06 130.81)
@@ -2402,6 +3164,38 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f64c9dd8-761d-4f36-a804-57b98e32dc91")
+	)
+	(no_connect
+		(at 229.87 41.91)
+		(uuid "146dd7c5-03a4-479a-b8e4-664d356934fc")
+	)
+	(no_connect
+		(at 186.69 41.91)
+		(uuid "477ff71d-0c2e-44a1-ad44-cdef398749c1")
+	)
+	(no_connect
+		(at 146.05 34.29)
+		(uuid "53de7d80-1e8b-48f4-9bc4-3a7fed8ca495")
+	)
+	(no_connect
+		(at 229.87 34.29)
+		(uuid "6794311c-4b62-4929-8aaa-dcffbfcd09e5")
+	)
+	(no_connect
+		(at 146.05 41.91)
+		(uuid "6a937dd9-e5f1-4213-bb2f-9126fef5d21d")
+	)
+	(no_connect
+		(at 270.51 41.91)
+		(uuid "77fc1a06-544f-438f-933a-3b9b38fa6f08")
+	)
+	(no_connect
+		(at 270.51 34.29)
+		(uuid "7f4eba10-ff71-4ddc-81c3-b24ae2bbe12b")
+	)
+	(no_connect
+		(at 186.69 34.29)
+		(uuid "f40a8055-f289-424d-b1ce-6dcd08caeaba")
 	)
 	(wire
 		(pts
@@ -2422,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "028d40a6-1b91-4cd4-90ab-b1a6d5f12241")
+	)
+	(wire
+		(pts
+			(xy 142.24 36.83) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f1a68b-0143-4070-a2e3-09d8ae370766")
 	)
 	(wire
 		(pts
@@ -2485,6 +3289,26 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 52.07) (xy 274.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3b37b3-3700-4cb5-b013-c42f09995738")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad9b287-e452-4fbc-a392-ee3d0f02d71b")
+	)
+	(wire
+		(pts
 			(xy 43.18 124.46) (xy 43.18 129.54)
 		)
 		(stroke
@@ -2515,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c19465c-ea90-42d8-8cef-4deaed6662d5")
+	)
+	(wire
+		(pts
 			(xy 241.3 120.65) (xy 247.65 120.65)
 		)
 		(stroke
@@ -2522,6 +3356,16 @@
 			(type default)
 		)
 		(uuid "2e80da18-a120-41e0-9080-7461dedff0b4")
+	)
+	(wire
+		(pts
+			(xy 142.24 39.37) (xy 146.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341dc53b-edf6-4699-92a9-464fec880553")
 	)
 	(wire
 		(pts
@@ -2535,6 +3379,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 39.37) (xy 274.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c4cd9f-9586-4328-a6bb-2c43cf78e997")
+	)
+	(wire
+		(pts
+			(xy 270.51 36.83) (xy 274.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a80c081-fa73-4f2b-b5d8-8e2678eb1db0")
+	)
+	(wire
+		(pts
 			(xy 101.6 64.77) (xy 105.41 64.77)
 		)
 		(stroke
@@ -2542,6 +3406,16 @@
 			(type default)
 		)
 		(uuid "3af794db-4e82-4113-9972-535619f3a0f2")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 153.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b795a59-4372-4716-a79b-6bd8fadb104b")
 	)
 	(wire
 		(pts
@@ -2575,6 +3449,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 49.53) (xy 270.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bec94ca-70f0-4228-84f7-ec24ca43742c")
+	)
+	(wire
+		(pts
 			(xy 41.91 151.13) (xy 48.26 151.13)
 		)
 		(stroke
@@ -2582,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "4e10ecf2-22c6-40da-9435-8e49f301887b")
+	)
+	(wire
+		(pts
+			(xy 274.32 29.21) (xy 274.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5e90ce-b8d9-4816-b39c-df83445bce94")
 	)
 	(wire
 		(pts
@@ -2675,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 29.21) (xy 190.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc03799-f6ca-4d12-a74d-2799b9a74123")
+	)
+	(wire
+		(pts
 			(xy 242.57 138.43) (xy 247.65 138.43)
 		)
 		(stroke
@@ -2682,6 +3586,26 @@
 			(type default)
 		)
 		(uuid "6c0e01de-4d93-47c5-bbfa-c3f6f7f77eb4")
+	)
+	(wire
+		(pts
+			(xy 274.32 46.99) (xy 274.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce31666-e2de-4e0a-9323-174b6aad6cb2")
+	)
+	(wire
+		(pts
+			(xy 270.51 29.21) (xy 274.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d74c2b5-7b09-44c6-aec7-c4038b77763f")
 	)
 	(wire
 		(pts
@@ -2705,6 +3629,36 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f9ad04-1b95-44af-b451-859c0c631bd7")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7970d920-3300-437f-89ca-02107892fe24")
+	)
+	(wire
+		(pts
+			(xy 186.69 29.21) (xy 190.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e986320-764c-4aba-85c6-9da773525fb2")
+	)
+	(wire
+		(pts
 			(xy 41.91 147.32) (xy 41.91 151.13)
 		)
 		(stroke
@@ -2722,6 +3676,16 @@
 			(type default)
 		)
 		(uuid "873ece58-fcda-4ef3-93cf-88457be3f4f2")
+	)
+	(wire
+		(pts
+			(xy 186.69 39.37) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c102bc-fec3-42f5-86ba-04e47ed53164")
 	)
 	(wire
 		(pts
@@ -2745,6 +3709,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 39.37) (xy 229.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8c3913-f03a-4b80-860a-8852445e7d5e")
+	)
+	(wire
+		(pts
 			(xy 95.25 162.56) (xy 95.25 167.64)
 		)
 		(stroke
@@ -2762,6 +3736,16 @@
 			(type default)
 		)
 		(uuid "8ffe4136-b169-4be2-8294-02c67224f60c")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926c4e7b-b0b5-4cd0-9f4a-dfe013210c15")
 	)
 	(wire
 		(pts
@@ -2795,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 82.55) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f964d93-ca7b-4a52-bb5f-e561d50e3ec5")
+	)
+	(wire
+		(pts
 			(xy 91.44 162.56) (xy 95.25 162.56)
 		)
 		(stroke
@@ -2802,6 +3796,26 @@
 			(type default)
 		)
 		(uuid "a3400352-c1f0-466a-8403-9e1b3fd6b371")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fb8225-474d-409f-8961-68ce43bd4ce3")
+	)
+	(wire
+		(pts
+			(xy 170.18 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ecd73-ffbb-4e27-bec2-275f99fc7b68")
 	)
 	(wire
 		(pts
@@ -2835,6 +3849,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 46.99) (xy 274.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a107ab-3966-4db5-82f0-d9c38b9517e9")
+	)
+	(wire
+		(pts
 			(xy 43.18 101.6) (xy 43.18 105.41)
 		)
 		(stroke
@@ -2865,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 49.53) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43e60d9-3d45-442a-bbe9-9359f8670478")
+	)
+	(wire
+		(pts
 			(xy 41.91 151.13) (xy 41.91 154.94)
 		)
 		(stroke
@@ -2872,6 +3906,16 @@
 			(type default)
 		)
 		(uuid "cea0711e-6962-4b4a-b431-84b01d201a7c")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb06635-433d-442c-b105-f407a61e7b43")
 	)
 	(wire
 		(pts
@@ -2922,6 +3966,16 @@
 			(type default)
 		)
 		(uuid "dce32b1f-313c-4f90-82e8-747597332662")
+	)
+	(wire
+		(pts
+			(xy 186.69 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1ddf9c-ed52-4c04-9c8e-58cee2d6f143")
 	)
 	(wire
 		(pts
@@ -2985,6 +4039,46 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 77.47) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee302e34-355c-4322-b7d4-5552f871625b")
+	)
+	(wire
+		(pts
+			(xy 186.69 36.83) (xy 190.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeffcece-ed90-4105-a0ec-b22c201bd99e")
+	)
+	(wire
+		(pts
+			(xy 226.06 36.83) (xy 229.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a97589-7643-4cb1-912f-617307589b8e")
+	)
+	(wire
+		(pts
+			(xy 170.18 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ed5f99-5e3e-4b1d-b726-d835c9631933")
+	)
+	(wire
+		(pts
 			(xy 101.6 46.99) (xy 105.41 46.99)
 		)
 		(stroke
@@ -3043,6 +4137,26 @@
 		)
 		(uuid "023758dd-c9a6-43b7-a5c3-c659d75bdb2b")
 	)
+	(label "PA13"
+		(at 274.32 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "109a4b90-a34e-403f-a570-2091aa9e13d7")
+	)
+	(label "DN"
+		(at 142.24 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "124ad403-de47-4458-b196-cb1fd60d4018")
+	)
 	(label "PA8"
 		(at 105.41 67.31 0)
 		(effects
@@ -3092,6 +4206,16 @@
 			(justify left bottom)
 		)
 		(uuid "27ac86fd-8dab-4979-bda5-edda09206deb")
+	)
+	(label "PA13"
+		(at 226.06 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27d6015c-1982-45ac-8764-05465b1aea0f")
 	)
 	(label "PA7"
 		(at 105.41 64.77 0)
@@ -3173,6 +4297,16 @@
 		)
 		(uuid "6c8175ff-7ac2-4a6f-afed-8a741dc84971")
 	)
+	(label "PA14"
+		(at 274.32 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717bfd9d-ea58-4613-b081-04044da78bd8")
+	)
 	(label "PA0"
 		(at 105.41 46.99 0)
 		(effects
@@ -3193,6 +4327,26 @@
 		)
 		(uuid "73b131a9-492c-4a0f-a787-3f77a0603951")
 	)
+	(label "DP"
+		(at 142.24 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74aeddb1-3251-4261-939c-17e45611d071")
+	)
+	(label "DP"
+		(at 170.18 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3e7c29-20d6-4fd1-a472-9caa86220951")
+	)
 	(label "PB7"
 		(at 46.99 59.69 180)
 		(effects
@@ -3203,6 +4357,16 @@
 		)
 		(uuid "8e3a131f-4107-4e27-9aa9-9e4aed89d8b7")
 	)
+	(label "PA2"
+		(at 190.5 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9178daec-1cb0-41e6-88aa-2da942988c0a")
+	)
 	(label "PA4"
 		(at 213.36 120.65 180)
 		(effects
@@ -3212,6 +4376,16 @@
 			(justify right bottom)
 		)
 		(uuid "94e1306b-c20e-4bbe-bf78-95e32af3785b")
+	)
+	(label "DN"
+		(at 190.5 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3a087b-94a0-4260-b100-7b6bf4c8e5c8")
 	)
 	(label "PA12"
 		(at 105.41 72.39 0)
@@ -3233,6 +4407,16 @@
 		)
 		(uuid "c06b94d7-fa71-42ae-9c56-8903dee9e25d")
 	)
+	(label "PA3"
+		(at 190.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5d409c8-f067-43f6-8bd0-b16a1faffffa")
+	)
 	(label "PC14"
 		(at 46.99 62.23 180)
 		(effects
@@ -3253,6 +4437,16 @@
 		)
 		(uuid "cf1af3ae-9742-4f84-b3d1-9b17d3a48232")
 	)
+	(label "DN"
+		(at 170.18 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe33526-e21e-4d78-8050-bc6840aa9ba3")
+	)
 	(label "PC14"
 		(at 76.2 116.84 180)
 		(effects
@@ -3262,6 +4456,26 @@
 			(justify right bottom)
 		)
 		(uuid "d11b263f-b455-4a07-932b-ac68b1eb9821")
+	)
+	(label "PA12"
+		(at 149.86 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5cfb336-488c-4e37-afd7-f3ae6bee5c07")
+	)
+	(label "PA14"
+		(at 226.06 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5dff552-7977-49d9-88bf-e0fada68f659")
 	)
 	(label "M+"
 		(at 233.68 130.81 0)
@@ -3274,6 +4488,16 @@
 		(uuid "d85ef5da-bb9e-4de4-9762-fb5e794cecf2")
 	)
 	(label "PA11"
+		(at 149.86 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dad7ed99-0611-41f3-8c97-f5591fd57bbc")
+	)
+	(label "PA11"
 		(at 105.41 69.85 0)
 		(effects
 			(font
@@ -3282,6 +4506,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7a7caee-7fc9-4143-aac7-7dc7460f530f")
+	)
+	(label "DP"
+		(at 190.5 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbc89b15-0787-433d-9c34-db7ca28b37de")
 	)
 	(label "NRST"
 		(at 91.44 162.56 180)
@@ -3454,6 +4688,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 158.75 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ead58f3-2e36-4aba-af5b-8a24bcb1ea20")
+		(property "Reference" "JP1"
+			(at 158.75 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 158.75 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 158.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "919ba67d-0200-48bf-8956-f2f443c2793d")
+		)
+		(pin "2"
+			(uuid "a92eaea5-cfeb-4590-a770-b9e8148419f8")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 166.37 0)
 		(unit 1)
@@ -3614,6 +4928,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 190.5 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1876e00a-7dff-437a-9e76-5c05d6a843f2")
+		(property "Reference" "#PWR022"
+			(at 190.5 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c852492-1282-483d-8039-fb55f6b6cfd8")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c1a8573-1c3a-46bf-8898-55ea5e822a2c")
+		(property "Reference" "#PWR020"
+			(at 274.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb7ec1dd-a011-4184-941d-058bc0af561b")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 158.75 0)
 		(unit 1)
@@ -3768,6 +5238,164 @@
 			(project "DC_CL_control_driver"
 				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6464e0-eba5-4a83-8426-c3f466f8861f")
+		(property "Reference" "#PWR019"
+			(at 274.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 274.32 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 274.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d0ed877-1fae-4e68-bc29-897453b2afcb")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 181.61 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ac7742-1749-4e8d-8d33-5d3120760d34")
+		(property "Reference" "JP3"
+			(at 181.61 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 181.61 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 181.61 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "329f5e8d-3cde-455c-aff4-e0f3819e4261")
+		)
+		(pin "1"
+			(uuid "7ee22eca-7c45-427f-a0ac-d986cd48cf5e")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -4030,7 +5658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3402"
 			(at 259.08 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,6 +5826,286 @@
 			(project "DC_CL_control_driver"
 				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB4930-00-A_REVA:USB4930-00-A_REVA")
+		(at 250.19 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597a13bb-0d62-479d-bb81-bf03c29167e7")
+		(property "Reference" "J1"
+			(at 250.19 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4930-00-A_REVA"
+			(at 250.19 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB4930-00-A_REVA:GCT_USB4930-00-A_REVA"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type C USB 2.0 Connector"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Global Connector Technology"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=eda"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=snap"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "USB4930-00-A"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=19108388&manufacturer=Global Connector Technology&part_name=USB4930-00-A&search_term=usb4930-00-a"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Global Connector Technology"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "USB4930-00-A"
+			(at 250.19 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A8"
+			(uuid "2659b8de-8647-4663-a2c4-74be43924cdc")
+		)
+		(pin "B1_A12"
+			(uuid "b4896f17-2013-4ad3-85b1-56fa444a0c3c")
+		)
+		(pin "B4_A9"
+			(uuid "43df31d6-e535-4103-95ac-289eacd0f985")
+		)
+		(pin "B5"
+			(uuid "750be469-d095-4aa9-b4cc-e6496f66fa7c")
+		)
+		(pin "B6"
+			(uuid "83ee91c0-5a63-4913-8bde-7b555adc191e")
+		)
+		(pin "B7"
+			(uuid "13d5ea80-29ab-4fc9-8a15-08ce6418e35c")
+		)
+		(pin "B8"
+			(uuid "fc921ad6-5bb2-4d3a-9288-d9b0996dba38")
+		)
+		(pin "SH1"
+			(uuid "529b1799-ab66-4a9a-83b8-3d284733c403")
+		)
+		(pin "SH2"
+			(uuid "ed807051-25f8-4068-af7c-3c8947ffdd1c")
+		)
+		(pin "SH3"
+			(uuid "ac0eefeb-32b0-4fd0-b0d8-5c4ced17b84e")
+		)
+		(pin "SH4"
+			(uuid "e967412e-192f-4d40-98e4-e400b854c326")
+		)
+		(pin "A4_B9"
+			(uuid "436a19e5-b35c-4a2f-a885-84710077bbed")
+		)
+		(pin "A7"
+			(uuid "e4a1224c-7905-4300-8029-59cd6e4ebbb5")
+		)
+		(pin "A6"
+			(uuid "feb813ca-999d-448e-a05c-de5c0052213d")
+		)
+		(pin "A5"
+			(uuid "ca913c8d-9033-4618-a633-de63d0520a83")
+		)
+		(pin "A1_B12"
+			(uuid "4808d3a1-fb9d-4010-b27a-f6e2d6ee0d99")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4618,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3402"
 			(at 259.08 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +7046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3402"
 			(at 229.87 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,6 +7395,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 181.61 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7f1a79-85f2-4b5a-b07b-27f688407c76")
+		(property "Reference" "JP4"
+			(at 181.61 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 181.61 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 181.61 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ffd4987-eb6c-41eb-8752-ab497c51ef1f")
+		)
+		(pin "1"
+			(uuid "e64366e2-d2ed-4bd7-bd26-c50341193dc0")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 166.37 0)
 		(unit 1)
@@ -5559,6 +7547,286 @@
 			(project "DC_CL_control_driver"
 				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB4930-00-A_REVA:USB4930-00-A_REVA")
+		(at 166.37 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd82c1d1-05c8-4b71-9037-200ed0da484d")
+		(property "Reference" "J2"
+			(at 166.37 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4930-00-A_REVA"
+			(at 166.37 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB4930-00-A_REVA:GCT_USB4930-00-A_REVA"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type C USB 2.0 Connector"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Global Connector Technology"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=eda"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4930-00-A/Global+Connector+Technology/view-part/?ref=snap"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "USB4930-00-A"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=19108388&manufacturer=Global Connector Technology&part_name=USB4930-00-A&search_term=usb4930-00-a"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Global Connector Technology"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "USB4930-00-A"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH4"
+			(uuid "4f785203-8a38-4c6d-b224-19724daf443d")
+		)
+		(pin "SH2"
+			(uuid "1bfba1cc-1147-43f0-b06d-3df48db6bec1")
+		)
+		(pin "SH3"
+			(uuid "7a6322ad-100f-4cd8-b41b-2dcdb5b0140b")
+		)
+		(pin "B5"
+			(uuid "730ebd30-4c3d-481d-beea-224625b78718")
+		)
+		(pin "B8"
+			(uuid "37243a0f-c2fd-46ce-bbea-ac6a25e1170a")
+		)
+		(pin "SH1"
+			(uuid "224065fd-957c-4df0-9768-cc66620e7400")
+		)
+		(pin "B4_A9"
+			(uuid "33a26a23-6442-40d4-b142-8ec194909e3f")
+		)
+		(pin "B7"
+			(uuid "e7802a7b-5776-42cb-8646-cbb990e7cc18")
+		)
+		(pin "B6"
+			(uuid "e6668537-b02e-4099-a0b8-22cbcc26a832")
+		)
+		(pin "B1_A12"
+			(uuid "154ac31c-c2be-436c-8826-7222b5bf554f")
+		)
+		(pin "A8"
+			(uuid "0831c96a-968c-4b95-a2df-41ce66883d45")
+		)
+		(pin "A7"
+			(uuid "371342ab-e612-417c-9b16-426588885f7b")
+		)
+		(pin "A6"
+			(uuid "974923df-b89f-401b-b96a-184a1a931d49")
+		)
+		(pin "A4_B9"
+			(uuid "70c9416c-6374-4da7-a1d0-0ee371b132bc")
+		)
+		(pin "A5"
+			(uuid "906832cf-754f-4555-93cb-20d480aebf7b")
+		)
+		(pin "A1_B12"
+			(uuid "3441ba69-76a4-4222-95f5-2ecfafc5701c")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5721,6 +7989,84 @@
 			(project "DC_CL_control_driver"
 				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff0822e-f74a-4a62-a479-0dc057567022")
+		(property "Reference" "#PWR021"
+			(at 190.5 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "001f7511-7890-4354-bff5-0f3fe32a6989")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5907,7 +8253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3402"
 			(at 229.87 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,6 +8558,86 @@
 			(project "DC_CL_control_driver"
 				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 158.75 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f146579c-de9e-46c8-a247-a15856a534bc")
+		(property "Reference" "JP2"
+			(at 158.75 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 158.75 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 158.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44dc1713-5e55-44e1-801c-2b4031f616be")
+		)
+		(pin "2"
+			(uuid "d8accc7c-eeb0-42c0-9cdb-d4556c530fd1")
+		)
+		(instances
+			(project "DC_CL_control_driver"
+				(path "/91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
