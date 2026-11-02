@@ -663,15 +663,24 @@
         "filename": "DC_CL_control_driver.kicad_sch",
         "name": "DC_CL_control_driver",
         "uuid": "91d8b61e-b10f-4a99-8fd7-357a3db2a99b"
+      },
+      {
+        "filename": "control_realization.kicad_sch",
+        "name": "Control realization",
+        "uuid": "22e6cf1b-6fad-4e34-bcaa-2ef2a29f8115"
       }
     ],
-    "used_designators": "#PWR1-22,C1-5,D1,J1-2,JP1-4,Q1-4,R1-2,SW1,U1-2,Y1",
+    "used_designators": "#PWR1-32,C1-5,D1-2,J1-4,JP1-4,Q1-8,R1-3,SW1,U1-4,Y1",
     "variants": []
   },
   "sheets": [
     [
       "91d8b61e-b10f-4a99-8fd7-357a3db2a99b",
       "DC_CL_control_driver"
+    ],
+    [
+      "22e6cf1b-6fad-4e34-bcaa-2ef2a29f8115",
+      "Control realization"
     ]
   ],
   "text_variables": {},
