@@ -1,0 +1,510 @@
+Info: Processing symbol 'J2:Parts:GCT_USB4930-00-A_REVA'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'JP2:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Info: Processing symbol 'U1:Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D1:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'Q6:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'SW1:Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG'.
+Info: Processing symbol 'JP4:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Info: Processing symbol 'Y1:Parts:XTAL_ABS07-32.768KHZ-T'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'Q5:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'U3:Package_SO:SOIC-14_3.9x8.7mm_P1.27mm'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J1:Parts:GCT_USB4930-00-A_REVA'.
+Info: Processing symbol 'J4:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'Q7:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'JP1:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Info: Processing symbol 'D2:LED_SMD:LED_0805_2012Metric'.
+Info: Processing symbol 'JP3:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'U4:Package_SO:SOIC-14_3.9x8.7mm_P1.27mm'.
+Info: Processing symbol 'Q8:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'SW2:Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG'.
+Updated C1 unit metadata.
+Connected C1 pin 2 to GND.
+Connected C1 pin 1 to +3V3.
+Updated C1 footprint filters to 'C_*'.
+Updated C1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C1 sheetname to '/DC_CL_control_driver/'.
+Removed C1 footprint fields not in symbol.
+Updated C1 fields.
+Updated C1 symbol association from  to /150e6bb3-bf59-413f-a83b-30962bdae8f0.
+Changed C1 value from C_0603_1608Metric to 10uF.
+Changed REF** reference designator to C1.
+Added C1 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Connected C4 pin 2 to GND.
+Updated C5 unit metadata.
+Connected C5 pin 2 to GND.
+Added C2 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C2.
+Updated C3 sheetname to '/DC_CL_control_driver/'.
+Updated C2 symbol association from  to /219681fe-a070-418d-bb95-9331b911c2fa.
+Updated C2 fields.
+Removed C2 footprint fields not in symbol.
+Updated C2 sheetname to '/DC_CL_control_driver/'.
+Updated C2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C2 footprint filters to 'C_*'.
+Connected C2 pin 1 to +3V3.
+Connected C2 pin 2 to GND.
+Updated C2 unit metadata.
+Added C3 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Updated JP2 footprint filters to 'SolderJumper*Open*'.
+Changed REF** reference designator to C3.
+Updated C4 sheetname to '/DC_CL_control_driver/'.
+Added D2 (footprint 'LED_SMD:LED_0805_2012Metric').
+Removed JP2 'exclude from position files' fabrication attribute.
+Updated JP1 sheetname to '/DC_CL_control_driver/'.
+Updated C3 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C3 footprint filters to 'C_*'.
+Connected C3 pin 2 to GND.
+Connected C3 pin 1 to /DC_CL_control_driver/NRST.
+Updated C3 unit metadata.
+Added C4 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C4.
+Changed C4 value from C_0603_1608Metric to 18pF.
+Updated C4 symbol association from  to /9c4ab6d1-ed2e-4a5d-a109-5045854a9594.
+Updated C4 fields.
+Removed C4 footprint fields not in symbol.
+Connected C5 pin 1 to /DC_CL_control_driver/PC15.
+Updated C4 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Changed REF** reference designator to J2.
+Connected C4 pin 1 to /DC_CL_control_driver/PC14.
+Updated C4 unit metadata.
+Added C5 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C5.
+Changed C5 value from C_0603_1608Metric to 18pF.
+Updated C5 symbol association from  to /97d7e025-66fc-4170-858c-e08a2185eae3.
+Updated C5 fields.
+Removed C5 footprint fields not in symbol.
+Updated C5 sheetname to '/DC_CL_control_driver/'.
+Updated C5 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C5 footprint filters to 'C_*'.
+Connected C6 pin 1 to Net-(C6-Pad1).
+Connected J1 pin A4_B9 to +3V3.
+Connected J1 pin A8 to unconnected-(J1-SBU1-PadA8).
+Updated J1 unit metadata.
+Added J2 (footprint 'Parts:GCT_USB4930-00-A_REVA').
+Connected J1 pin A1_B12 to GND.
+Changed REF** reference designator to C6.
+Changed C6 value from C_0603_1608Metric to 100pF.
+Updated C6 symbol association from  to /9517b43f-1d06-4017-8613-e19152cd622d.
+Updated C6 fields.
+Removed C6 footprint fields not in symbol.
+Updated C6 sheetname to '/DC_CL_control_driver/'.
+Updated C6 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C6 footprint filters to 'C_*'.
+Connected C6 pin 2 to GND.
+Connected J1 pin B1_A12 to GND.
+Updated C6 unit metadata.
+Added D1 (footprint 'LED_SMD:LED_0805_2012Metric').
+Changed REF** reference designator to D1.
+Changed D1 value from LED_0805_2012Metric to 17-21SURC/S530-A3/4T.
+Updated D2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated D1 fields.
+Removed D1 footprint fields not in symbol.
+Updated D1 sheetname to '/DC_CL_control_driver/'.
+Updated D1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Connected D1 pin 2 to Net-(D1-A).
+Connected D1 pin 1 to GND.
+Updated D1 unit metadata.
+Connected J3 pin 2 to +3V3.
+Updated J1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated C3 symbol association from  to /9d5abf9d-c6cd-40a7-ba79-7117cae586e9.
+Updated C3 fields.
+Removed C3 footprint fields not in symbol.
+Changed C2 value from C_0603_1608Metric to 22uF.
+Updated D2 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Connected D2 pin 2 to Net-(D2-A).
+Connected D2 pin 1 to GND.
+Updated D2 unit metadata.
+Added J1 (footprint 'Parts:GCT_USB4930-00-A_REVA').
+Changed REF** reference designator to J1.
+Changed J1 value from GCT_USB4930-00-A_REVA to USB4930-00-A_REVA.
+Updated J1 symbol association from  to /597a13bb-0d62-479d-bb81-bf03c29167e7.
+Updated J1 fields.
+Updated J1 sheetname to '/DC_CL_control_driver/'.
+Changed C3 value from C_0603_1608Metric to 100pF.
+Connected J1 pin B7 to /DC_CL_control_driver/PA13.
+Connected J1 pin B8 to unconnected-(J1-SBU2-PadB8).
+Connected J1 pin SH2 to GND.
+Added C6 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Connected J1 pin SH3 to GND.
+Connected J1 pin A7 to /DC_CL_control_driver/PA14.
+Connected J1 pin A5 to unconnected-(J1-CC1-PadA5).
+Connected J1 pin B5 to unconnected-(J1-CC2-PadB5).
+Connected J1 pin SH1 to GND.
+Connected J1 pin SH4 to GND.
+Connected J1 pin B6 to /DC_CL_control_driver/PA14.
+Connected J1 pin A6 to /DC_CL_control_driver/PA13.
+Connected J1 pin B4_A9 to +3V3.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Changed J2 value from GCT_USB4930-00-A_REVA to USB4930-00-A_REVA.
+Updated J2 symbol association from  to /cd82c1d1-05c8-4b71-9037-200ed0da484d.
+Updated J2 fields.
+Updated J2 sheetname to '/DC_CL_control_driver/'.
+Updated J2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected J2 pin B7 to /DC_CL_control_driver/DN.
+Connected J2 pin A6 to /DC_CL_control_driver/DP.
+Connected J2 pin SH1 to GND.
+Connected J2 pin B8 to unconnected-(J2-SBU2-PadB8).
+Connected J2 pin SH3 to GND.
+Connected J2 pin B4_A9 to +3V3.
+Connected J2 pin B6 to /DC_CL_control_driver/DP.
+Connected J2 pin A7 to /DC_CL_control_driver/DN.
+Connected J2 pin A1_B12 to GND.
+Updated J4 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected J2 pin SH2 to GND.
+Connected J2 pin B1_A12 to GND.
+Connected J2 pin SH4 to GND.
+Connected J2 pin A8 to unconnected-(J2-SBU1-PadA8).
+Connected J2 pin A5 to unconnected-(J2-CC1-PadA5).
+Connected J2 pin A4_B9 to +3V3.
+Updated J2 unit metadata.
+Added J3 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical').
+Changed REF** reference designator to J3.
+Changed J3 value from PinHeader_1x06_P2.54mm_Vertical to Conn_01x06_Pin.
+Updated J3 symbol association from  to /5b977d5e-4a25-4e36-8e14-449f79b6b7b8.
+Updated J3 fields.
+Removed J3 footprint fields not in symbol.
+Updated J3 sheetname to '/DC_CL_control_driver/'.
+Updated J4 footprint filters to 'Connector*:*_1x??_*'.
+Connected J3 pin 1 to /DC_CL_control_driver/M+.
+Connected J3 pin 3 to /DC_CL_control_driver/PA6.
+Connected J3 pin 4 to /DC_CL_control_driver/PA7.
+Connected J3 pin 5 to GND.
+Connected J3 pin 6 to /DC_CL_control_driver/M-.
+Updated J3 unit metadata.
+Added J4 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical').
+Changed REF** reference designator to J4.
+Changed J4 value from PinHeader_1x06_P2.54mm_Vertical to Conn_01x06_Pin.
+Updated J4 symbol association from  to /5b7547c0-3024-41f8-b61e-3f3d7aecaed3.
+Updated J4 fields.
+Removed J4 footprint fields not in symbol.
+Updated J4 sheetname to '/DC_CL_control_driver/'.
+Updated Q5 fields.
+Updated J3 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected J4 pin 3 to /DC_CL_control_driver/PA3.
+Connected J4 pin 5 to /DC_CL_control_driver/PA12.
+Connected J4 pin 2 to /DC_CL_control_driver/PA2.
+Connected J4 pin 1 to +3V3.
+Connected J4 pin 6 to GND.
+Connected J4 pin 4 to /DC_CL_control_driver/PA11.
+Updated J4 unit metadata.
+Added J5 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical').
+Changed REF** reference designator to J5.
+Changed J5 value from PinHeader_1x06_P2.54mm_Vertical to Conn_01x06_Pin.
+Updated J5 symbol association from  to /f68f38f2-a91c-43f3-8930-06383f660860.
+Updated J5 fields.
+Removed J5 footprint fields not in symbol.
+Updated JP1 symbol association from  to /0ead58f3-2e36-4aba-af5b-8a24bcb1ea20.
+Updated Q5 symbol association from  to /fdef1cb9-2d3c-4397-8161-2237078e0e61.
+Added JP4 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Updated J5 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated J5 footprint filters to 'Connector*:*_1x??_*'.
+Connected J5 pin 3 to /DC_CL_control_driver/PA1.
+Connected J5 pin 5 to /DC_CL_control_driver/PB3.
+Connected J5 pin 6 to GND.
+Connected J5 pin 2 to /DC_CL_control_driver/PA0.
+Connected J5 pin 4 to /DC_CL_control_driver/PA8.
+Connected J5 pin 1 to +3V3.
+Updated J5 unit metadata.
+Added JP1 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Changed REF** reference designator to JP1.
+Changed JP1 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Changed Q5 value from SOT-23 to AO3402.
+Updated JP1 fields.
+Connected JP2 pin 1 to /DC_CL_control_driver/PA11.
+Updated JP1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated JP1 footprint filters to 'SolderJumper*Open*'.
+Removed JP1 'exclude from position files' fabrication attribute.
+Connected JP1 pin 1 to /DC_CL_control_driver/PA12.
+Connected JP1 pin 2 to /DC_CL_control_driver/DP.
+Updated JP1 unit metadata.
+Added JP2 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Changed REF** reference designator to JP2.
+Changed JP2 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Updated JP2 symbol association from  to /f146579c-de9e-46c8-a247-a15856a534bc.
+Updated JP2 fields.
+Updated JP2 sheetname to '/DC_CL_control_driver/'.
+Updated JP3 unit metadata.
+Connected J2 pin B5 to unconnected-(J2-CC2-PadB5).
+Connected JP2 pin 2 to /DC_CL_control_driver/DN.
+Updated JP2 unit metadata.
+Added JP3 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Changed REF** reference designator to JP3.
+Changed JP3 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Updated JP3 symbol association from  to /32ac7742-1749-4e8d-8d33-5d3120760d34.
+Updated JP3 fields.
+Updated JP3 sheetname to '/DC_CL_control_driver/'.
+Updated JP3 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated JP3 footprint filters to 'SolderJumper*Open*'.
+Removed JP3 'exclude from position files' fabrication attribute.
+Connected JP3 pin 1 to /DC_CL_control_driver/DP.
+Connected JP3 pin 2 to /DC_CL_control_driver/PA3.
+Updated JP2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated J5 sheetname to '/DC_CL_control_driver/'.
+Changed REF** reference designator to JP4.
+Changed JP4 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Updated JP4 symbol association from  to /ba7f1a79-85f2-4b5a-b07b-27f688407c76.
+Updated JP4 fields.
+Updated JP4 sheetname to '/DC_CL_control_driver/'.
+Updated JP4 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated JP4 footprint filters to 'SolderJumper*Open*'.
+Connected JP4 pin 1 to /DC_CL_control_driver/DN.
+Connected JP4 pin 2 to /DC_CL_control_driver/PA2.
+Updated JP4 unit metadata.
+Added Q5 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Changed REF** reference designator to Q5.
+Connected Q5 pin 2 to /Control realization/Mout+.
+Removed R1 footprint fields not in symbol.
+Updated R1 sheetname to '/DC_CL_control_driver/'.
+Connected R6 pin 1 to +3V3.
+Updated R1 footprint filters to 'R_*'.
+Connected R1 pin 1 to +3V3.
+Connected R1 pin 2 to /DC_CL_control_driver/NRST.
+Updated R1 unit metadata.
+Added R2 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R2.
+Changed R2 value from R_0603_1608Metric to 10k.
+Added R1 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Removed Q5 footprint fields not in symbol.
+Updated Q5 sheetname to '/Control realization/'.
+Updated Q5 sheetfile to 'control_realization.kicad_sch'.
+Updated R1 fields.
+Connected Q5 pin 3 to /Control realization/M+.
+Connected Q5 pin 1 to +3V3.
+Updated Q5 unit metadata.
+Added Q6 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Changed REF** reference designator to Q6.
+Changed Q6 value from SOT-23 to AO3402.
+Updated Q6 symbol association from  to /ca11fed9-c2da-4ddb-ad9b-cc05e7290ac0.
+Updated Q6 fields.
+Removed Q6 footprint fields not in symbol.
+Updated Q6 sheetname to '/Control realization/'.
+Connected Q7 pin 2 to /Control realization/Mout-.
+Connected Q6 pin 2 to /Control realization/Mout-.
+Connected Q6 pin 1 to /Control realization/M+.
+Connected Q6 pin 3 to GND.
+Changed REF** reference designator to Q8.
+Connected U3 pin 2 to /Control realization/PA4.
+Connected U3 pin 7 to GND.
+Connected U3 pin 14 to +3V3.
+Connected U3 pin 3 to /Control realization/PA4N.
+Connected U3 pin 1 to /Control realization/PA4.
+Updated U3 unit metadata.
+Added U4 (footprint 'Package_SO:SOIC-14_3.9x8.7mm_P1.27mm').
+Changed REF** reference designator to U4.
+Changed U4 value from SOIC-14_3.9x8.7mm_P1.27mm to 74AHC00D.
+Updated U4 symbol association from  to /b184e018-6f09-4b0d-a328-aa1d6cf0e243.
+Updated U4 fields.
+Connected U3 pin 11 to unconnected-(U3-Pad11).
+Updated Q7 unit metadata.
+Added Q8 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Updated Q6 unit metadata.
+Changed Q8 value from SOT-23 to AO3402.
+Updated Q8 symbol association from  to /c7656855-dfc9-4981-b897-e1e5d88d51e2.
+Updated Q8 fields.
+Removed Q8 footprint fields not in symbol.
+Updated Q8 sheetname to '/Control realization/'.
+Updated Q8 sheetfile to 'control_realization.kicad_sch'.
+Connected Q8 pin 1 to /Control realization/M-.
+Connected Q8 pin 2 to /Control realization/Mout+.
+Connected Q8 pin 3 to GND.
+Updated Q8 unit metadata.
+Updated R2 symbol association from  to /a9fc4bd3-1abe-403c-9786-5195a603f727.
+Changed REF** reference designator to R1.
+Changed R1 value from R_0603_1608Metric to 10k.
+Updated R1 symbol association from  to /0659d0f4-5077-4608-a2fb-308fc04800a6.
+Changed R4 value from R_0603_1608Metric to 10k.
+Removed R5 footprint fields not in symbol.
+Updated R5 sheetname to '/DC_CL_control_driver/'.
+Updated R5 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated R5 footprint filters to 'R_*'.
+Connected R5 pin 1 to +3V3.
+Connected R5 pin 2 to Net-(C6-Pad1).
+Updated R5 unit metadata.
+Added R6 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R6.
+Added R5 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Updated R2 unit metadata.
+Connected R2 pin 2 to Net-(D1-A).
+Added R3 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Connected R2 pin 1 to +3V3.
+Updated R5 fields.
+Changed REF** reference designator to R3.
+Updated R2 footprint filters to 'R_*'.
+Changed R3 value from R_0603_1608Metric to 10k.
+Updated R3 symbol association from  to /7ddc1f14-d8ad-48a5-a415-6d59586dded9.
+Removed R3 footprint fields not in symbol.
+Updated R3 sheetname to '/DC_CL_control_driver/'.
+Updated R2 fields.
+Removed R2 footprint fields not in symbol.
+Updated R2 sheetname to '/DC_CL_control_driver/'.
+Updated R3 fields.
+Updated R3 footprint filters to 'R_*'.
+Updated R2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated R3 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected R3 pin 1 to /DC_CL_control_driver/PA5.
+Updated R1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Added Q7 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Changed REF** reference designator to Q7.
+Changed Q7 value from SOT-23 to AO3402.
+Updated Q7 symbol association from  to /6f07a822-23bf-4f38-b782-45853ac0c0cf.
+Updated Q7 fields.
+Removed Q7 footprint fields not in symbol.
+Updated Q7 sheetname to '/Control realization/'.
+Updated Q7 sheetfile to 'control_realization.kicad_sch'.
+Connected Q7 pin 1 to +3V3.
+Connected Q7 pin 3 to /Control realization/M-.
+Updated Q6 sheetfile to 'control_realization.kicad_sch'.
+Updated R3 unit metadata.
+Added R4 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R4.
+Connected U3 pin 8 to /Control realization/Mout-.
+Updated R4 symbol association from  to /029c7b21-760a-48bc-aace-0cfde1c058a7.
+Updated R4 fields.
+Removed R4 footprint fields not in symbol.
+Updated R4 sheetname to '/DC_CL_control_driver/'.
+Updated R4 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Connected R4 pin 1 to /DC_CL_control_driver/PA14.
+Connected R4 pin 2 to GND.
+Updated R4 unit metadata.
+Connected R3 pin 2 to Net-(D2-A).
+Changed REF** reference designator to R5.
+Changed R5 value from R_0603_1608Metric to 1k.
+Updated R5 symbol association from  to /4b128f23-d961-4e9f-bc64-acde103b8ced.
+Connected R6 pin 2 to /DC_CL_control_driver/PA13.
+Connected U1 pin 7 to /DC_CL_control_driver/PA0.
+Connected U1 pin 1 to /DC_CL_control_driver/PB7.
+Connected U1 pin 18 to /DC_CL_control_driver/PA13.
+Connected U1 pin 12 to /DC_CL_control_driver/PA5.
+Connected U1 pin 11 to /DC_CL_control_driver/PA4.
+Connected U1 pin 10 to /DC_CL_control_driver/PA3.
+Connected U1 pin 19 to /DC_CL_control_driver/PA14.
+Connected U1 pin 4 to +3V3.
+Updated R6 symbol association from  to /c2e5c109-19bf-4203-acc2-4e38a3620760.
+Updated R6 fields.
+Removed R6 footprint fields not in symbol.
+Updated R6 sheetname to '/DC_CL_control_driver/'.
+Updated R6 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated R6 footprint filters to 'R_*'.
+Connected U1 pin 14 to /DC_CL_control_driver/PA7.
+Removed JP4 'exclude from position files' fabrication attribute.
+Updated R6 unit metadata.
+Added SW1 (footprint 'Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG').
+Changed REF** reference designator to SW1.
+Changed SW1 value from SW_Push_1P1T_NO_CK_KSC6xxG to TVCF19015BPB.
+Updated SW1 symbol association from  to /856816d3-c882-4f76-bc29-0482364f1d5a.
+Updated SW1 fields.
+Connected SW2 pin 1 to GND.
+Updated SW1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected SW1 pin 2 to /DC_CL_control_driver/PA14.
+Connected SW1 pin 1 to Net-(C6-Pad1).
+Connected SW1 pin 1 to Net-(C6-Pad1).
+Connected SW1 pin 2 to /DC_CL_control_driver/PA14.
+Updated SW1 unit metadata.
+Updated U1 sheetname to '/DC_CL_control_driver/'.
+Changed D2 value from LED_0805_2012Metric to 17-21SURC/S530-A3/4T.
+Updated D2 symbol association from  to /5554da91-b987-4dd4-aaed-bf8abe179435.
+Updated D2 fields.
+Removed D2 footprint fields not in symbol.
+Updated D2 sheetname to '/DC_CL_control_driver/'.
+Updated D1 symbol association from  to /b37625ef-6498-4511-8918-22d364a4cf03.
+Connected SW2 pin 2 to /DC_CL_control_driver/NRST.
+Updated SW2 unit metadata.
+Added U1 (footprint 'Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm').
+Changed REF** reference designator to U1.
+Changed U1 value from TSSOP-20_4.4x6.5mm_P0.65mm to STM32G030F6Px.
+Updated U1 symbol association from  to /ed7b6941-52e0-4bc3-82b7-a301d40481e4.
+Updated U1 fields.
+Removed U1 footprint fields not in symbol.
+Added SW2 (footprint 'Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG').
+Updated U1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated U1 footprint filters to 'TSSOP*4.4x6.5mm*P0.65mm*'.
+Connected U1 pin 13 to /DC_CL_control_driver/PA6.
+Connected U1 pin 20 to /DC_CL_control_driver/PB3.
+Connected U1 pin 15 to /DC_CL_control_driver/PA8.
+Changed R6 value from R_0603_1608Metric to 10k.
+Connected U1 pin 3 to /DC_CL_control_driver/PC15.
+Connected U1 pin 9 to /DC_CL_control_driver/PA2.
+Connected U1 pin 16 to /DC_CL_control_driver/PA11.
+Connected U1 pin 6 to /DC_CL_control_driver/NRST.
+Connected U1 pin 2 to /DC_CL_control_driver/PC14.
+Connected U1 pin 17 to /DC_CL_control_driver/PA12.
+Connected U1 pin 8 to /DC_CL_control_driver/PA1.
+Changed U3 value from SOIC-14_3.9x8.7mm_P1.27mm to 74AHC00D.
+Changed Y1 value from XTAL_ABS07-32.768KHZ-T to ABS07-32.768KHZ-T.
+Updated Y1 symbol association from  to /7ee6dab7-75d1-49d4-86c9-9b515bdcb93e.
+Updated Y1 fields.
+Updated Y1 sheetname to '/DC_CL_control_driver/'.
+Updated Y1 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Updated Y1 footprint filters to 'Crystal*'.
+Connected Y1 pin 1 to /DC_CL_control_driver/PC14.
+Connected Y1 pin 2 to /DC_CL_control_driver/PC15.
+Updated Y1 unit metadata.
+Removed unused net +5V.
+Connected U4 pin 11 to unconnected-(U4-Pad11).
+Updated U1 unit metadata.
+Added U3 (footprint 'Package_SO:SOIC-14_3.9x8.7mm_P1.27mm').
+Changed REF** reference designator to U3.
+Changed REF** reference designator to Y1.
+Updated U3 symbol association from  to /c03b298d-8ef5-4449-8903-01ff348ca2ee.
+Updated U3 fields.
+Removed U3 footprint fields not in symbol.
+Updated U3 sheetname to '/Control realization/'.
+Updated U3 sheetfile to 'control_realization.kicad_sch'.
+Updated U3 footprint filters to 'DIP*W7.62mm* SO14*'.
+Connected U3 pin 13 to unconnected-(U3-Pad13).
+Connected U3 pin 5 to /Control realization/PB7.
+Connected U3 pin 10 to /Control realization/Mout-N.
+Connected U3 pin 9 to /Control realization/Mout-N.
+Removed U4 footprint fields not in symbol.
+Connected U3 pin 4 to /Control realization/PA4N.
+Connected U3 pin 12 to unconnected-(U3-Pad12).
+Connected U3 pin 6 to /Control realization/Mout-N.
+Connected U4 pin 4 to /Control realization/PB7N.
+Changed REF** reference designator to SW2.
+Changed SW2 value from SW_Push_1P1T_NO_CK_KSC6xxG to TVCF19015BPB.
+Updated SW2 symbol association from  to /25fc6e56-828d-4935-a24e-887605fdba1f.
+Updated SW2 fields.
+Updated SW2 sheetname to '/DC_CL_control_driver/'.
+Updated SW2 sheetfile to 'DC_CL_control_driver.kicad_sch'.
+Connected SW2 pin 2 to /DC_CL_control_driver/NRST.
+Connected SW2 pin 1 to GND.
+Updated SW1 sheetname to '/DC_CL_control_driver/'.
+Updated U4 sheetname to '/Control realization/'.
+Updated U4 sheetfile to 'control_realization.kicad_sch'.
+Updated U4 footprint filters to 'DIP*W7.62mm* SO14*'.
+Connected U4 pin 14 to +3V3.
+Connected U4 pin 12 to unconnected-(U4-Pad12).
+Changed REF** reference designator to D2.
+Connected U4 pin 10 to /Control realization/Mout+N.
+Connected U4 pin 3 to /Control realization/PB7N.
+Connected U4 pin 6 to /Control realization/Mout+N.
+Connected U4 pin 1 to /Control realization/PB7.
+Connected U4 pin 13 to unconnected-(U4-Pad13).
+Connected U4 pin 5 to /Control realization/PA4.
+Connected U4 pin 7 to GND.
+Connected U4 pin 2 to /Control realization/PB7.
+Connected U1 pin 5 to GND.
+Connected U4 pin 9 to /Control realization/Mout+N.
+Connected U4 pin 8 to /Control realization/Mout+.
+Updated U4 unit metadata.
+Added Y1 (footprint 'Parts:XTAL_ABS07-32.768KHZ-T').
+
+
+Info: Total warnings: 0, errors: 0.

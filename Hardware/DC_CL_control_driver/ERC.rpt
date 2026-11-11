@@ -1,0 +1,25 @@
+ERC report (2026-11-11T19:17:18, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /DC_CL_control_driver/
+[multiple_net_names]: Both +3V3 and +5V are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(850 mils, 6500 mils): Symbol #PWR028 Pin 1 [Power input, Line]
+    @(1000 mils, 4250 mils): Symbol #PWR029 Pin 1 [Power input, Line]
+[lib_symbol_mismatch]: Symbol 'AZ1117CH-3.3TRG1' doesn't match copy in library 'AZ1117CH-3.3TRG1'
+    ; warning
+    @(2200 mils, 4500 mils): Symbol VR1 [AZ1117CH-3.3TRG1]
+[multiple_net_names]: Both GND and SHELL_GND are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(3150 mils, 6950 mils): Symbol #PWR012 Pin 1 [Power input, Line]
+    @(5950 mils, 1950 mils): Symbol J1 Hidden pin SH2 [SHELL_GND, Power input, Line]
+
+***** Sheet /Control realization/
+
+ ** ERC messages: 3  Errors 0  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

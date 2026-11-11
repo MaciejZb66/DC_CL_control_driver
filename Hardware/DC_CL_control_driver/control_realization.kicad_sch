@@ -2589,26 +2589,6 @@
 		)
 		(uuid "21c1d5b0-c23d-4f52-9b88-09b995ad34ba")
 	)
-	(label "PA4"
-		(at 29.21 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26c63d93-7fa7-498c-8362-52251e7c61d1")
-	)
-	(label "M+"
-		(at 227.33 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31e3080e-2c77-4c94-a585-8adc8465c303")
-	)
 	(label "Mout+"
 		(at 116.84 66.04 0)
 		(effects
@@ -2659,26 +2639,6 @@
 		)
 		(uuid "625dde0d-daf8-43e2-b4d2-ffedd9df6598")
 	)
-	(label "M-"
-		(at 262.89 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6499c096-a1d4-48a1-9bc3-53354408185a")
-	)
-	(label "PB7"
-		(at 29.21 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6df59a58-9b6b-490a-9c3e-ff308c061eb5")
-	)
 	(label "PB7N"
 		(at 88.9 45.72 180)
 		(effects
@@ -2708,16 +2668,6 @@
 			(justify right bottom)
 		)
 		(uuid "9d3c406d-4f79-4e9f-9129-271f0707ed29")
-	)
-	(label "PB7"
-		(at 88.9 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a31e260d-fd9d-4392-a3fd-e9ca96fbca75")
 	)
 	(label "Mout-"
 		(at 57.15 66.04 0)
@@ -2769,15 +2719,149 @@
 		)
 		(uuid "f346df64-7f39-40f8-942e-1b29602d2121")
 	)
-	(label "PA4"
-		(at 88.9 50.8 180)
+	(global_label "PB7"
+		(shape input)
+		(at 88.9 29.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "fcee6080-dc17-4e69-b267-4bb11c630cce")
+		(uuid "0eeeb526-f1ea-48e4-b7e0-be5ebbc6eb0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1653 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA4"
+		(shape input)
+		(at 29.21 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13542750-8361-4622-ae91-a6af3f081a1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.6567 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB7"
+		(shape input)
+		(at 29.21 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a80d695-e897-4ced-afe7-6afd880910c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.4753 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "M-"
+		(shape input)
+		(at 262.89 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc0a137e-eb17-4d68-a763-3cc17af2d791")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.899 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "M+"
+		(shape input)
+		(at 227.33 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c01422ee-e288-418c-a0ab-61d202dd8bb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.339 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA4"
+		(shape input)
+		(at 88.9 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb143d6e-2aea-4fb1-a19f-c10794d615b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.3467 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
